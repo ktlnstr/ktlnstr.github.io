@@ -24,6 +24,6 @@ const countdownInterval = setInterval(() => {
     // If the countdown is finished, display a message
     if (timeLeft < 0) {
         clearInterval(countdownInterval);
-        document.getElementById("countdown").innerHTML = "Countdown Finished!";
+        document.getElementById("countdown").innerHTML = "Today is the day my love <3";
     }
 }, 1000);
